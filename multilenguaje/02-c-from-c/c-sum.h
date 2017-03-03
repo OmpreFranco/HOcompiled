@@ -2,6 +2,6 @@
 #ifndef C_SUM_H
 #define C_SUM_H
 
-extern int sum_abs(int *, int);
+extern void sum_abs(int* inp ,int* num,int* asum);
 
 #endif

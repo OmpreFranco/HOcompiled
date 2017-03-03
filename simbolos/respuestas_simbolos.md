@@ -1,0 +1,13 @@
+# Respuestas_ompr\'e
+
+Los simbolos que aparecen en visibility.o son los siguientes:
+
+0000000000000000 t add_abs
+000000000000002a T main
+                 U printf
+0000000000000000 r val1
+0000000000000004 R val2
+0000000000000000 d val3
+0000000000000004 D val4
+
+

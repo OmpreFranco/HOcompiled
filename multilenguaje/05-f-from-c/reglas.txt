@@ -1,0 +1,6 @@
+Comandos que use para la compilacion de los achivos de fortran y de c 
+
+gcc -c f-sum.f90 ( convierte en objeto la subrutina de fortran)
+gcc -c c-main.c  ( convierte en objeto el main de c )
+gcc  f-sum.o c-main.o -o c-main.e ( linkea los dos objetos y crea el ejecutable c-main.e)
+
