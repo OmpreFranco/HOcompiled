@@ -4,11 +4,11 @@ program testsum
 
   integer, parameter :: n=200
   integer :: data(n), asum, i , a
-  integer :: sum_abs 
+  
   do i=1,200
     data(i) = i-100
   end do
   asum = 0  
-  a = sum_abs(data,n,asum)
-  print*, a,sum_abs(data,n,asum)
+  call sum_abs(data,n,asum)
+  print*, asum
 end program testsum 
